@@ -1,0 +1,14 @@
+name: CompassTracker
+version: '${project.version}'
+main: ml.oll.compasstracker.CompassTracker
+api-version: 1.19
+authors: [ Olly ]
+description: A Compass Tracker plugin for Survival 6
+website: https://olly.ml
+depend: [ NBTAPI ]
+commands:
+  givecompass:
+    description: Gives the user the compass item
+    usage: /givecompass [player]
+    aliases: gc
+
